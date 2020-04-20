@@ -1,0 +1,50 @@
+:root {
+  --IhpOrange: #ee7900;
+  --IhpBlack: #000000;
+  --IhpTextBlack: #333333;
+  --IhpBackground: #ffffff;
+  --IhpFooter: #ffffff;
+  --IhpNavbar: #ffffff;
+  --IhpLogo: url(https://www.interhyp.de/assets/interhyp/website-assets/images/logo.svg?1582560697);
+}
+
+.IhpText {
+  font-family: Clan Book;
+  font-size: 14px;
+  color: #333;
+  line-height: 1.5;
+  font-weight: normal;
+}
+
+.IhpButton {
+  font-family: Clan Bold;
+  font-size: 16px;
+  color: #ee7900;
+  background-color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+.IhpButton:hover {
+  font-family: Clan Bold;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #ba6b36;
+  border: none;
+  cursor: pointer;
+}
+
+.IhpHeader {
+  font-family: Clan Bold;
+  font-size: 22px;
+  color: #333333;
+  line-height: 1;
+  background-color: #ffffff;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+.navbar-toggler {
+  border: none;
+}

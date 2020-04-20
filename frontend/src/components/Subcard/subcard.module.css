@@ -1,0 +1,47 @@
+.subCard {
+    height: 15px;
+    width:100%;
+    margin-top: -15px;
+    text-align: center;
+}
+
+
+
+.subCard:hover {
+    cursor: pointer;
+    background-color: rosybrown;
+}
+
+.toShowOnClick {
+    display:flex;
+    flex-direction:column;
+    border: 1px solid black;
+    margin: auto;
+
+}
+
+
+
+.AceEditor {
+margin-left: 150px;
+margin-right: 150px;
+}
+
+.outputBoxCode {
+    width: 100%;
+    height: 150px;
+    background-color: darkslategrey;
+}
+
+.outputBox {
+margin-left: 250px;
+margin-right: 250px;
+}
+
+
+
+.showOnClick > button {
+margin-left: 350px;
+margin-right: 350px;
+}
+

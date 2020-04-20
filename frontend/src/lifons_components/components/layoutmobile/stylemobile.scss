@@ -1,0 +1,223 @@
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus,
+.btn-primary {
+  background-color: #579eb0 !important;
+  border-color: white !important;
+  background-color: white;
+  text-align: center;
+}
+.btn-outline-light {
+  background-color: white !important;
+  border-color: white !important;
+}
+.card-header {
+  border-radius:0 !important;
+}
+
+.timeline {
+  list-style: none;
+  padding: 0;
+  position: relative;
+}
+dl, ol, ul {
+  margin-bottom: 0 !important;
+}
+.timeline:before {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 3px;
+    background-color: #eeeeee;
+    left: 50%;
+    margin-left: -1.5px;
+}
+
+.timeline > li {
+  position: relative;
+}
+
+.timeline > li:after {
+  clear: both;
+}
+
+.timeline > li:before,
+.timeline > li:after {
+  content: " ";
+  display: table;
+}
+
+.timeline > li:after {
+  clear: both;
+}
+
+.timeline > li > .timeline-panel {
+  width: 46%;
+  float: left;
+  border: 1px solid #d4d4d4;
+  border-radius: 2px;
+  padding: 20px;
+  position: relative;
+  -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+}
+
+
+.timeline > li > .timeline-badge {
+  color: #fff;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 1.4em;
+  text-align: center;
+  position: absolute;
+  top: 16px;
+  left: 50%;
+  margin-left: -25px;
+  background-image: linear-gradient(#337ab7, #579eb0);
+  z-index: 0;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+
+.timeline > li.timeline-inverted > .timeline-panel {
+  float: right;
+}
+
+
+.timeline-title {
+  margin-top: 0;
+  color: inherit;
+}
+
+.timeline-body > p,
+.timeline-body > ul {
+  margin-bottom: 0;
+}
+
+.timeline-body > p + p {
+  margin-top: 5px;
+}
+
+@media (min-width: 771px) {
+  #timelineheading {
+    font-size: 2vw;
+    font-weight: 800;
+  }
+  .timeline-title {
+    font-size:1.5vw;
+    font-weight:800;
+  }
+  .timeline-body {
+    font-size:1.5rem;
+  }
+  .closingbody {
+    font-size:2vw;
+    color:white;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 770px) {
+
+  ul.timeline:before {
+    left: 40px;
+  }
+
+  ul.timeline > li > .timeline-panel {
+    width: calc(100% - 90px);
+    width: -moz-calc(100% - 90px);
+    width: -webkit-calc(100% - 90px);
+  }
+
+  ul.timeline > li > .timeline-badge {
+    left: 15px;
+    margin-left: 0;
+    top: 16px;
+  }
+
+  ul.timeline > li > .timeline-panel {
+    float: right;
+  }
+  #timelineheading {
+    font-size: 1.75rem;
+    font-weight: 800;
+  }
+  .timeline-title {
+    font-weight:800;
+  }
+  .closingbody {
+    text-align: center;
+    font-size:1.75rem;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 20px;
+  }
+  .card-text {
+    font-size: 0.95rem;
+  }
+  .btn-outline-light {
+    background-color: white !important;
+    border-color: white !important;
+    font-size: 1.4rem !important;
+  }
+}
+
+.btn-outline-primary {
+  background-color: white;
+}
+
+.btn:focus, .btn:active {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.fade-in-section {
+  opacity: 0;
+  transform: translateX(20vw);
+  visibility: hidden;
+  transition: opacity 1200ms ease-out, transform 600ms ease-out,
+  visibility 1200ms ease-out;
+  will-change: opacity, transform, visibility;
+}
+
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+
+.benefitcards {
+  text-align: center;
+  font-size: 1vw;
+  font-weight: 400;
+}
+
+footer {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  line-height: 120%;
+  color: #333;
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'proxima-nova', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 12px;
+  width: calc(100% - (15px * 2));
+  margin-right: 15px;
+  margin-left: 15px;
+  padding: 3rem 0 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  position: relative;
+  z-index: 2;
+}

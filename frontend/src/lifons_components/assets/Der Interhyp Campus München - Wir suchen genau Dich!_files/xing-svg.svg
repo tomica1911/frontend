@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="210px" height="56px" viewBox="0 0 210 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="transparent" x="0.319580078" y="0.125976562" width="209" height="55"></rect>
+        <path d="M33.0619918,41.3747482 L26.8561332,30.4963047 L36.4877318,13.6259766 L42.9701532,13.6259766 L33.3388629,30.4963047 L39.5450298,41.3747482 L33.0619918,41.3747482 Z M22.8744928,32.9844446 L27.6895213,25.0572372 L24.0784811,18.6966021 L17.96666,18.6966021 L21.5780085,25.0572372 L16.76298,32.9844446 L22.8744928,32.9844446 Z" fill="#FFFFFF" fill-rule="nonzero"></path>
+        <path d="M58.3195801,1.17089844 L58.3195801,54.1708984"  stroke-opacity="0.166694973" stroke="#000000" stroke-width="2" stroke-linecap="square"></path>
+        <text font-family="Arial-BoldMT, Arial" font-size="24" font-weight="bold" fill="#FFFFFF">
+            <tspan x="75.3195801" y="36.1259766">XING</tspan>
+        </text>
+    </g>
+</svg>
